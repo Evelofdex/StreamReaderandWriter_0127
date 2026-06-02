@@ -12,6 +12,10 @@ int main(){
         //memanggil array element ke-5 yang berarti akan terjadi aerror
         cout << data.at(5) << endl;
     }
+    //kondisi jika terjadi error dalam try
+    catch (exception& e){
+        
+    }
 }
 
 
