@@ -14,7 +14,7 @@ int main(){
     }
     //kondisi jika terjadi error dalam try
     catch (exception& e){
-        
+        cout << e.what() << endl;
     }
 }
 
