@@ -43,9 +43,8 @@ int main(){
         //perulangan untuk menampilkan setiap baris
         while (getline(infile, baris))
         {
-
-        cout << baris << endl;
-
+            cout << baris << endl;
+        }
         //menutup file jika telah selesai di loop
         infile.close();
     }
