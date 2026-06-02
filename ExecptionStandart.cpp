@@ -16,6 +16,8 @@ int main(){
     catch (exception& e){
         cout << e.what() << endl;
     }
+    cout << "Baris program terakhri" << endl;
+    return 0;
 }
 
 
